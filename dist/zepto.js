@@ -1,4 +1,4 @@
-/* Zepto v1.0.0 - zepto event ajax form ie - zeptojs.com/license */
+/* Zepto v1.0.0-1-g5e3e6e3 - zepto event ajax form ie - zeptojs.com/license */
 (function(global, factory) {
   if (typeof define === 'function' && define.amd)
     define(function() { return factory(global) })
@@ -947,9 +947,6 @@
 
   return $
 })()
-
-window.Zepto = Zepto
-window.$ === undefined && (window.$ = Zepto)
 
 ;(function($){
   var _zid = 1, undefined,

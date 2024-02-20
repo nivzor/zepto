@@ -946,5 +946,6 @@ var Zepto = (function() {
 })()
 
 // If `$` is not yet defined, point it to `Zepto`
-window.Zepto = Zepto
-window.$ === undefined && (window.$ = Zepto)
+// Taboola Video Demand prevent binding to window to avoid conflicts on hosting sites.
+// window.Zepto = Zepto
+// window.$ === undefined && (window.$ = Zepto)
